@@ -27,3 +27,42 @@ button {
   margin-bottom: 2px;
   margin-top: 2px;
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Medium Screen */
+@media only screen and (min-width: 35rem) {
+
+  h1  {
+    font-size: 3rem;
+  }
+
+  div {
+    display: block;
+  }
+
+  #content {
+    font-size: 1.5rem;
+  }
+    
+} /* end media query*/
+
+
+
+/* Large Screen */
+@media only screen and (min-width: 60rem) {
+
+  h1  {
+    font-size: 4rem;
+  }
+
+  #content {
+    font-size: 1.8rem;
+  }
+
+} /* end media query*/
